@@ -1,0 +1,266 @@
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin: 20px;
+	outline: none;
+}
+
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 
+		inset 0 0 0 0 rgba(200,95,66, 0.4),
+		inset 0 0 0 10px rgba(255,255,255,0.6),
+		0 1px 1px rgba(0,0,0,0.1);
+	transition: all 0.4s ease-in-out;
+	outline: none;
+}
+
+.ch-img-1 { 
+	background-image: url('src/assets/kurtas.jpeg');
+	background-size: cover;
+}
+
+.ch-img-2 { 
+	background-image: url('src/assets/lehenga.jpeg');
+	background-size: cover;
+}
+
+.ch-img-3 { 
+	background-image: url('src/assets/sarees.jpg');
+	background-size: cover;
+}
+.ch-img-4 { 
+	background-image: url('src/assets/dress material.jpeg');
+	background-size: cover;
+}
+.ch-img-5 { 
+	background-image: url('src/assets/salwar kameez.jpg');
+	background-size: cover
+}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	transform: scale(0);
+	backface-visibility: hidden;
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin: 0 30px;
+	padding: 40px 0 0 0;
+	height: 110px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 1px 1px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: rgba(255,242,34, 0.8);
+}
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 110px rgba(200,95,66, 0.4),
+		inset 0 0 0 16px rgba(255,255,255,0.8),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	transform: scale(1);	
+}
+
+
+@media only screen and (max-width:620px){
+	.ch-grid {
+		margin: 20px 0 0 0;
+		padding: 0;
+		list-style: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+	
+	
+	}
+	
+	.ch-grid:after,
+	.ch-item:before {
+		content: '';
+		display: table;
+	}
+	
+	.ch-grid:after {
+		clear: both;
+	}
+	
+	.ch-grid li {
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		margin: 10px;
+		outline: none;
+	}
+	
+	
+	
+	.ch-item {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		position: relative;
+		cursor: pointer;
+		box-shadow: 
+			inset 0 0 0 0 rgba(200,95,66, 0.4),
+			inset 0 0 0 5px rgba(255,255,255,0.6),
+			0 1px 1px rgba(0,0,0,0.1);
+		transition: all 0.4s ease-in-out;
+		outline: none;
+	}
+	
+	.ch-img-1 { 
+		background-image: url('src/assets/kurtas.jpeg');
+		background-size: cover;
+	}
+	
+	.ch-img-2 { 
+		background-image: url('src/assets/lehenga.jpeg');
+		background-size: cover;
+	}
+	
+	.ch-img-3 { 
+		background-image: url('src/assets/sarees.jpg');
+		background-size: cover;
+	}
+	.ch-img-4 { 
+		background-image: url('src/assets/dress material.jpeg');
+		background-size: cover;
+	}
+	.ch-img-5 { 
+		background-image: url('src/assets/salwar kameez.jpg');
+		background-size: cover
+	}
+	
+	.ch-info {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		overflow: hidden;
+		opacity: 0;
+		transition: all 0.4s ease-in-out;
+		transform: scale(0);
+		backface-visibility: hidden;
+	}
+	
+	.ch-info h3 {
+		color: #fff;
+		text-transform: uppercase;
+		position: relative;
+		letter-spacing: 1px;
+		font-size: 8px;
+		margin: 0 30px;
+		padding: 22px 0 0 0;
+		height: 30px;
+		font-family: 'Open Sans', Arial, sans-serif;
+		text-shadow: 
+			0 0 1px #fff, 
+			0 1px 2px rgba(0,0,0,0.3);
+	}
+	
+	.ch-info p {
+		color:#fff;
+		/* position: relative; */
+		padding: 20px 0 0 0;
+		font-style: italic;
+		margin: 0px 30px;
+		font-size: 6px;
+		border-top: 1px solid rgba(255,255,255,0.5);
+	}
+	
+	.ch-info p a {
+		display: block;
+		color: rgba(255,255,255,0.7);
+		font-style: normal;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 9px;
+		letter-spacing: 1px;
+		padding-top: 4px;
+		font-family: 'Open Sans', Arial, sans-serif;
+	}
+	
+	.ch-info p a:hover {
+		color: rgba(255,242,34, 0.8);
+	}
+	.ch-item:hover {
+		box-shadow: 
+			inset 0 0 0 110px rgba(200,95,66, 0.4),
+			inset 0 0 0 10px rgba(255,255,255,0.8),
+			0 1px 2px rgba(0,0,0,0.1);
+	}
+	
+	.ch-item:hover .ch-info {
+		opacity: 1;
+		transform: scale(1);	
+	}
+
+}

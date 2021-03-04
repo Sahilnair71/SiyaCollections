@@ -1,0 +1,41 @@
+.image_slider {
+    position: relative;
+    top: 80px;
+}
+
+.background {
+  
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font: 2rem sans-serif;
+}
+
+.closet_essentials{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font: 2rem sans-serif;
+}
+
+
+
+@media only screen and (max-width:620px){
+    .image_slider {
+        position: relative;
+        top: 40px;
+    }
+    .background {
+  
+        position: relative;
+        top:50px;
+        text-align: center;
+        font: 1.5rem sans-serif;
+    }
+    .closet_essentials{
+        position: relative;
+        top: 80px;
+        text-align: center;
+        font: 1.5rem sans-serif;
+    }
+}

@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center
+
+}
+
+.box-1 {
+    background-color: darkblue;
+    height: 363.8px;
+    width: 234.67px;
+    
+ 
+
+}
+.box-2 {
+   background-color: darkmagenta;
+   height: 320.5px;
+   width: 400.33px;
+  
+   
+
+}
+.box-3 {
+    background-color: darkred;
+    
+    height: 359.25px;
+    width: 234.67px;
+
+}
+
+li {
+    border: 1px solid black;
+    margin:0.5em;
+    padding: 0px;
+}
